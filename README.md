@@ -2,7 +2,7 @@
 
 This web app is built using Streamlit, allowing users to upload time series data with timestamps and forecast future values using a combination of **ARIMA** and **Support Vector Machines (SVM)**. It supports forecasting on an hourly or daily basis and provides visualizations and downloadable results.
 
-### Features
+## Features
 
 * Upload CSV files with datetime and numeric target columns
 * Preview and visualize historical data
@@ -11,7 +11,7 @@ This web app is built using Streamlit, allowing users to upload time series data
 * Compare forecasting models
 * Download forecast results as a CSV file
 
-### Sample Data
+## Sample Data
 
 You can use any CSV file that includes:
 
@@ -35,7 +35,7 @@ cd Time-Series-Forcasting-using-ARIMA-SVM
 pip install -r requirements.txt
 ```
 
-### Run the App
+## Run the App
 
 ```bash
 streamlit run app.py
@@ -43,7 +43,7 @@ streamlit run app.py
 
 The app will open in your default browser.
 
-### Usage Instructions
+## Usage Instructions
 
 1. Upload a CSV file with a datetime column and at least one numeric column.
 2. Select the appropriate datetime and target variable columns.
@@ -52,7 +52,7 @@ The app will open in your default browser.
 5. View and compare the ARIMA and SVM forecast outputs.
 6. Download the forecast results as a CSV file.
 
-### Models Used
+## Models Used
 
 * **ARIMA (AutoRegressive Integrated Moving Average)**
   A statistical model for analyzing and forecasting time series data.
@@ -64,7 +64,7 @@ The app will open in your default browser.
   * Hour of day
   * Day of the week
 
-### Requirements
+## Requirements
 
 All required Python packages are listed in `requirements.txt`:
 
@@ -77,6 +77,6 @@ statsmodels
 numpy
 ```
 
-### 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
