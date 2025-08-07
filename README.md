@@ -2,8 +2,6 @@
 
 This web app is built using Streamlit, allowing users to upload time series data with timestamps and forecast future values using a combination of **ARIMA** and **Support Vector Machines (SVM)**. It supports forecasting on an hourly or daily basis and provides visualizations and downloadable results.
 
----
-
 ### Features
 
 * Upload CSV files with datetime and numeric target columns
@@ -13,8 +11,6 @@ This web app is built using Streamlit, allowing users to upload time series data
 * Compare forecasting models
 * Download forecast results as a CSV file
 
----
-
 ### Sample Data
 
 You can use any CSV file that includes:
@@ -23,8 +19,6 @@ You can use any CSV file that includes:
 * A **numeric column** representing the target variable to forecast
 
 Example dataset, obtained from [City-Scale Electricity Use Dataset](https://github.com/LBNL-ETA/City-Scale-Electricity-Use-Prediction)
-
----
 
 ## Installation
 
@@ -41,8 +35,6 @@ cd Time-Series-Forcasting-using-ARIMA-SVM
 pip install -r requirements.txt
 ```
 
----
-
 ### Run the App
 
 ```bash
@@ -50,8 +42,6 @@ streamlit run app.py
 ```
 
 The app will open in your default browser.
-
----
 
 ### Usage Instructions
 
@@ -61,8 +51,6 @@ The app will open in your default browser.
 4. Set the forecast horizon (e.g., 24 hours or 7 days).
 5. View and compare the ARIMA and SVM forecast outputs.
 6. Download the forecast results as a CSV file.
-
----
 
 ### Models Used
 
@@ -75,8 +63,6 @@ The app will open in your default browser.
   * Ordinal date
   * Hour of day
   * Day of the week
-
----
 
 ### Requirements
 
@@ -91,10 +77,6 @@ statsmodels
 numpy
 ```
 
----
-
 ### 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-Just say the word!
